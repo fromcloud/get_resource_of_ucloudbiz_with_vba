@@ -235,7 +235,6 @@ On Error GoTo errhdl
     Exit Sub
 errhdl:
     Debug.Print err.Description
-    'Call MsgBox("___ _______." + target_sheet + " : " + "apikey _ secretkey / apiurl_ ___ ___ ______", vbOKOnly, "__")Ω Ω√ø‰", vbOKOnly, "ø¿∑˘")
     
     Resume Next
 End Sub
