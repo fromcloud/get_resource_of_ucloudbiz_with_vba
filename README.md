@@ -2,7 +2,7 @@
 
 VBA script for getting your resource in ucloudbiz.
 
-* Resource List
+Resource List
 - Virtual Machines
 - Disks
 - Templates
