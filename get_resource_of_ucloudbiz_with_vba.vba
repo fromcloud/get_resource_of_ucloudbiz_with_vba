@@ -192,7 +192,7 @@ On Error GoTo errhdl
     ActiveWorkbook.XmlImport url:=final_url, ImportMap:=Nothing, Overwrite:=True, Destination:=Range(target_range)
     Exit Sub
 errhdl:
-    Call MsgBox("___ _______." + target_sheet + " : " + "apikey _ secretkey / apiurl_ ___ ___ ______", vbOKOnly, "__")Ω Ω√ø‰", vbOKOnly, "ø¿∑˘")
+    Call MsgBox("Eror" + target_sheet + " : " + "apikey or secretkey / apiurl is missing", vbOKOnly, "")
     Resume Next
 End Sub
 
